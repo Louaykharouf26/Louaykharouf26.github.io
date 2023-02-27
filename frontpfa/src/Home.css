@@ -1,0 +1,135 @@
+.sidebar{
+    background-color: #5A5A5A;
+  height: 100%;
+  position: fixed;
+  top: 9.5%;
+  left: 0;
+  width: 80px;
+}
+
+ul {
+    list-style: none;
+    position: absolute;
+    top: 5%;
+  }
+.fa-desktop , .fa-television{
+transform: scale(3);
+}
+.fa-desktop{
+  position: absolute;
+  left: 0%;
+  color: #fff;
+}
+.container {
+    position: absolute;
+  }
+  
+  .details {
+    visibility: hidden;
+    position: absolute;
+    width: 1031px;
+    height: 612px;
+    color: #fff;
+    
+    
+  }
+  .container:hover  .details {
+    visibility: visible;
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    top: 10%;
+    left:230%;
+    background-color: #C8C8C8;
+    border-radius: 21px;
+   
+    
+  }
+
+.ligne1{
+  position: relative;
+  top: 20%;
+  left: 3%;
+  color: black;
+    font-family: 'Poppins';
+    font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+}
+.ligne2{
+  position: relative;
+  top: 25%;
+  left: 3%;
+  color: black;
+    font-family: 'Poppins';
+    font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+}
+  .VM{
+    position: relative;
+    top: 25%;
+    left:65%;
+    width: 70px;
+    height: 50px;
+    border-radius: 17px;
+  }
+  
+  .detailstxt{
+    position: absolute;
+    top: 38%;
+    left: 8%;
+    color: black;
+    font-family: 'Poppins';
+  }
+
+  .OCU{
+    position: absolute;
+    left: 25%;
+    font-family: 'Poppins';
+    font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 94px;
+  }
+  .CPU{
+    position: absolute;
+    left: 10%;
+    top:13%;
+    width: 500px;
+    height: 350px;
+    background-color: #808080;
+    border-radius: 21px;
+    z-index: -1;
+  }
+  .consommation{
+    position: absolute;
+    left: 10%;
+    top:70%;
+    width: 500px;
+    height: 350px;
+    background-color: #808080;
+    border-radius: 21px;
+    z-index: -1;
+  }
+  .OCO,.ONU{
+    position: absolute;
+    left: 25%;
+    font-family: 'Poppins';
+    font-style: normal;
+font-weight: 600;
+
+font-size: 30px;
+line-height: 94px;
+  }
+  .networking{
+    position: absolute;
+    left: 50%;
+    top:13%;
+    width: 500px;
+    height: 350px;
+    background-color: #808080;
+    border-radius: 21px;
+    z-index: -1;
+  }
+  

@@ -1,0 +1,43 @@
+.cloud{
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.createVM-btn{
+    width: 150px;
+    height: 42px;
+    background: transparent;
+    border-radius: 21px;
+    position: relative;
+    left: 95%;
+    top: 8%;
+    font-family: 'Poppins';
+color: #000000;
+}
+.Navbar{
+    box-sizing: border-box;
+width: 1366px;
+height: 65px;
+background: #5A5A5A;
+border-bottom: 0.6px solid #B7B7B7;
+}
+.User-btn{
+    position: relative;
+width: 350px;
+height: 60px;
+left: 205%;
+top: -2%;
+background: transparent;
+border-radius: 7px;
+font-family: 'Poppins';
+color: #000000;
+}
+.fa-user-circle-o{
+    transform: scale(3);
+    position: absolute;
+    top: 33%;
+    left: 7%;
+}
